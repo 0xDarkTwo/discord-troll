@@ -39,7 +39,7 @@ app.get('*', function (req, res) {
         });
     }
     else {
-        var file = path.join(dir, 'osama.svg');
+        var file = path.join(dir, 'baited.svg');
         if (file.indexOf(dir + path.sep) !== 0) {
             return res.status(403).end('Forbidden');
         }
